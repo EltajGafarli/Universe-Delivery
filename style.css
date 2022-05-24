@@ -1,0 +1,120 @@
+.main .header {
+  background-image: url("./images/WhatsApp Image 2022-05-25 at 12.08.57 AM.jpeg");
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box; }
+  .main .header .navbar-dark {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    position: relative;
+    top: 10px; }
+    .main .header .navbar-dark .phone p {
+      font-size: 30px;
+      color: green; }
+      .main .header .navbar-dark .phone p a {
+        margin-left: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white; }
+    .main .header .navbar-dark .nav-link a {
+      margin-left: 15px;
+      font-size: 30px;
+      color: white; }
+  .main .header .links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 140px;
+    left: 90px; }
+    .main .header .links a {
+      text-decoration: none;
+      display: block;
+      width: 200px;
+      padding: 5px;
+      color: white;
+      font-size: 25px;
+      margin-top: 15px;
+      border-radius: 5px; }
+    .main .header .links a:hover {
+      background-color: green;
+      transition: all 1s; }
+  .main .header .login {
+    position: absolute;
+    top: 140px;
+    right: 100px;
+    display: flex;
+    justify-content: space-between; }
+    .main .header .login a {
+      text-decoration: none;
+      display: block;
+      width: 120px;
+      padding: 5px;
+      margin-left: 15px;
+      color: white;
+      font-size: 25px;
+      border-radius: 5px;
+      text-align: center; }
+    .main .header .login .sign {
+      background-color: darkred;
+      transition: all 1s; }
+    .main .header .login .log {
+      background-color: darkgreen; }
+    .main .header .login a:hover {
+      background-color: white;
+      color: black; }
+.main .whoweare {
+  margin-top: 100px;
+  display: flex; }
+  .main .whoweare img {
+    width: 800px;
+    height: 401px; }
+  .main .whoweare .texts {
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 201px; }
+    .main .whoweare .texts .head-text {
+      font-size: 25px;
+      font-weight: bold; }
+    .main .whoweare .texts .large-txt {
+      font-size: 18px; }
+.main .services {
+  margin-top: 200px;
+  display: flex; }
+  .main .services img {
+    width: 800px;
+    height: 401px; }
+  .main .services .texts {
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-top: 30px;
+    height: 201px; }
+    .main .services .texts .head-text {
+      font-size: 25px;
+      font-weight: bold; }
+  .main .services .large-txt {
+    font-size: 18px; }
+.main .about {
+  margin-top: 200px;
+  display: flex; }
+  .main .about img {
+    width: 800px;
+    height: 401px; }
+  .main .about .texts {
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 201px; }
+    .main .about .texts .head-text {
+      font-size: 25px;
+      font-weight: bold; }
+  .main .about .large-txt {
+    font-size: 18px; }
+
+/*# sourceMappingURL=style.css.map */
