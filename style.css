@@ -1,35 +1,42 @@
-.main .header {
+* ::-webkit-scrollbar {
+  width: 12px; }
+* ::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+* ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rebeccapurple; }
+* .main .header {
   background-image: url("./images/WhatsApp Image 2022-05-25 at 12.08.57 AM.jpeg");
   width: 100%;
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box; }
-  .main .header .navbar-dark {
+  * .main .header .navbar-dark {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid white;
     position: relative;
     top: 10px; }
-    .main .header .navbar-dark .phone p {
+    * .main .header .navbar-dark .phone p {
       font-size: 30px;
       color: green; }
-      .main .header .navbar-dark .phone p a {
+      * .main .header .navbar-dark .phone p a {
         margin-left: 10px;
         font-size: 20px;
         text-decoration: none;
         color: white; }
-    .main .header .navbar-dark .nav-link a {
+    * .main .header .navbar-dark .nav-link a {
       margin-left: 15px;
       font-size: 30px;
       color: white; }
-  .main .header .links {
+  * .main .header .links {
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 140px;
     left: 90px; }
-    .main .header .links a {
+    * .main .header .links a {
       text-decoration: none;
       display: block;
       width: 200px;
@@ -38,16 +45,16 @@
       font-size: 25px;
       margin-top: 15px;
       border-radius: 5px; }
-    .main .header .links a:hover {
+    * .main .header .links a:hover {
       background-color: green;
       transition: all 1s; }
-  .main .header .login {
+  * .main .header .login {
     position: absolute;
     top: 140px;
     right: 100px;
     display: flex;
     justify-content: space-between; }
-    .main .header .login a {
+    * .main .header .login a {
       text-decoration: none;
       display: block;
       width: 120px;
@@ -57,64 +64,95 @@
       font-size: 25px;
       border-radius: 5px;
       text-align: center; }
-    .main .header .login .sign {
-      background-color: darkred;
-      transition: all 1s; }
-    .main .header .login .log {
+    * .main .header .login .sign {
+      background-color: darkred; }
+    * .main .header .login .log {
       background-color: darkgreen; }
-    .main .header .login a:hover {
+    * .main .header .login a:hover {
       background-color: white;
-      color: black; }
-.main .whoweare {
+      color: black;
+      transition: all 1s; }
+  * .main .header .download {
+    position: absolute;
+    display: block;
+    top: 500px;
+    left: 595px; }
+    * .main .header .download button {
+      width: 160px;
+      height: 50px;
+      font-size: 20px;
+      border: none;
+      border-radius: 5px; }
+    * .main .header .download button:hover {
+      background-color: green;
+      color: white;
+      transition: all 1s; }
+* .main .whoweare {
   margin-top: 100px;
   display: flex; }
-  .main .whoweare img {
+  * .main .whoweare img {
     width: 800px;
     height: 401px; }
-  .main .whoweare .texts {
+  * .main .whoweare .texts {
     text-align: center;
     box-sizing: border-box;
     margin-left: 20px;
     margin-top: 30px;
     height: 201px; }
-    .main .whoweare .texts .head-text {
+    * .main .whoweare .texts .head-text {
       font-size: 25px;
       font-weight: bold; }
-    .main .whoweare .texts .large-txt {
+    * .main .whoweare .texts .large-txt {
       font-size: 18px; }
-.main .services {
+* .main .services {
   margin-top: 200px;
   display: flex; }
-  .main .services img {
+  * .main .services img {
     width: 800px;
     height: 401px; }
-  .main .services .texts {
+  * .main .services .texts {
     text-align: center;
     box-sizing: border-box;
     margin-right: 20px;
     margin-top: 30px;
     height: 201px; }
-    .main .services .texts .head-text {
+    * .main .services .texts .head-text {
       font-size: 25px;
       font-weight: bold; }
-  .main .services .large-txt {
+  * .main .services .large-txt {
     font-size: 18px; }
-.main .about {
+* .main .about {
   margin-top: 200px;
   display: flex; }
-  .main .about img {
+  * .main .about img {
     width: 800px;
     height: 401px; }
-  .main .about .texts {
+  * .main .about .texts {
     text-align: center;
     box-sizing: border-box;
     margin-left: 20px;
     margin-top: 30px;
     height: 201px; }
-    .main .about .texts .head-text {
+    * .main .about .texts .head-text {
       font-size: 25px;
       font-weight: bold; }
-  .main .about .large-txt {
+  * .main .about .large-txt {
     font-size: 18px; }
+* .main footer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  * .main footer .menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; }
+    * .main footer .menu ul li {
+      margin-left: 60px; }
+      * .main footer .menu ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 25px; }
 
 /*# sourceMappingURL=style.css.map */
