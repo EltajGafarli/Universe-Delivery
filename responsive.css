@@ -1,0 +1,141 @@
+@media (max-width: 415px) {
+  .main .header {
+    background-size: cover;
+    background-position: center center;
+    background-origin: border-box; }
+    .main .header .navbar-dark {
+      align-items: center; }
+      .main .header .navbar-dark .phone {
+        position: relative;
+        top: 10px; }
+        .main .header .navbar-dark .phone p {
+          font-size: 20px;
+          color: green; }
+          .main .header .navbar-dark .phone p a {
+            margin-left: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            color: white; }
+      .main .header .navbar-dark .nav-link a {
+        margin-left: 15px;
+        font-size: 20px;
+        color: white; }
+    .main .header .links {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 10px; }
+      .main .header .links a {
+        text-decoration: none;
+        display: block;
+        width: 200px;
+        padding: 5px;
+        color: white;
+        font-size: 15px;
+        margin-top: 15px;
+        border-radius: 5px; }
+    .main .header .login {
+      position: absolute;
+      top: 85px;
+      right: 10px;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: baseline; }
+      .main .header .login a {
+        text-decoration: none;
+        display: block;
+        width: 100px;
+        padding: 5px;
+        margin-left: 15px;
+        color: white;
+        font-size: 15px;
+        border-radius: 5px;
+        text-align: center; }
+      .main .header .login .sign {
+        background-color: darkred;
+        margin-top: 10px; }
+      .main .header .login .log {
+        background-color: darkgreen; }
+      .main .header .login a:hover {
+        background-color: white;
+        color: black;
+        transition: all 1s; }
+    .main .header .download {
+      left: 125px; }
+  .main .whoweare {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; }
+    .main .whoweare img {
+      width: 400px;
+      height: 205px; }
+    .main .whoweare .texts {
+      text-align: center;
+      box-sizing: border-box;
+      margin-left: 20px;
+      margin-top: 30px;
+      height: 201px; }
+      .main .whoweare .texts .head-text {
+        font-size: 20px;
+        font-weight: bold; }
+      .main .whoweare .texts .large-txt {
+        font-size: 15px; }
+  .main .services {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse; }
+    .main .services img {
+      width: 400px;
+      height: 205px; }
+    .main .services .texts {
+      text-align: center;
+      box-sizing: border-box;
+      margin-right: 20px;
+      margin-top: 30px;
+      height: 201px; }
+      .main .services .texts .head-text {
+        font-size: 20px;
+        font-weight: bold; }
+    .main .services .large-txt {
+      font-size: 15px; }
+  .main .about {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; }
+    .main .about img {
+      width: 400px;
+      height: 205px; }
+    .main .about .texts {
+      text-align: center;
+      box-sizing: border-box;
+      margin-left: 20px;
+      margin-top: 30px;
+      height: 201px; }
+      .main .about .texts .head-text {
+        font-size: 20px;
+        font-weight: bold; }
+    .main .about .large-txt {
+      font-size: 15px; }
+  .main footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main footer .menu ul {
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      margin-left: -40px;
+      margin-top: 40px; }
+      .main footer .menu ul li {
+        margin-left: 30px; }
+        .main footer .menu ul li a {
+          text-decoration: none;
+          color: black;
+          font-size: 20px;
+          font-weight: bold; } }
+
+/*# sourceMappingURL=responsive.css.map */
